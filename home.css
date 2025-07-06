@@ -1,0 +1,103 @@
+/* ------------------ Global Layout ------------------ */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+/* ------------------ Hero Section ------------------ */
+.hero-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  z-index: 10;
+  max-width: 90%;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.position-relative {
+  position: relative;
+}
+
+
+/* ------------------ Buttons ------------------ */
+.btn-black {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-black:hover {
+  background-color: #333;
+}
+
+/* ------------------ Search Bar ------------------ */
+.search-bar {
+  max-width: 600px;
+  margin: 30px auto;
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input[type="search"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #333;
+}
+
+/* ------------------ Product Cards ------------------ */
+.card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* ------------------ Section Titles ------------------ */
+h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* ------------------ Footer ------------------ */
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #f8f9fa;
+}
